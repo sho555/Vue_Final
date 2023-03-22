@@ -1,0 +1,1 @@
+import{_ as o,R as t,r as n,o as s,c as a,d as r,b as c,F as _,a as l}from"./index-539e02e7.js";const p={components:{RouterView:t}},u=l("hr",null,null,-1);function d(i,m,f,V,x,N){const e=n("RouterView");return s(),a(_,null,[r(" 404 "),u,c(e)],64)}const $=o(p,[["render",d]]);export{$ as default};
