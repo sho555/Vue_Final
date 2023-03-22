@@ -1,28 +1,34 @@
 <template>
-
   <div class="home">
     <div class="position-relative">
       <div class="position-absolute" style="top:0; bottom:0; left:0; right:0; background-image: url(https://images.unsplash.com/photo-1480399129128-2066acb5009e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-        background-position: center center; opacity: 0.1;"></div>
+          background-position: center center; opacity: 0.1;"></div>
       <div class="container d-flex flex-column" style="min-height: 100vh;">
         <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="./index.html">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          <!-- <a class="navbar-brand" href="./index.html">Navbar</a> -->
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          </button> -->
+          <!-- <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link me-4 active" href="#">
-                <router-link to="/">Home
 
-                </router-link>|
-                <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link me-4" href="./product.html">Product</a>
-              <a class="nav-item nav-link me-4" href="./detail.html">Detail</a>
-              <a class="nav-item nav-link" href="./cart.html"><i class="fas fa-shopping-cart"></i></a>
+              <router-link to="/" class="nav-item nav-link me-4 active">Home
+
+              </router-link>
+              <span class="sr-only">(current)</span>
+
+              <router-link to="/products" class="nav-item nav-link me-4 active">
+                Product
+              </router-link>
+              <router-link to="/about" class="nav-item nav-link me-4 active">
+                about
+              </router-link>
+              <router-link to="/cart" class="nav-item nav-link me-4 active">
+                <i class="fas fa-shopping-cart"></i>
+              </router-link>
             </div>
-          </div>
+          </div> -->
         </nav>
         <div class="row justify-content-center my-auto">
           <div class="col-md-4 text-center">
