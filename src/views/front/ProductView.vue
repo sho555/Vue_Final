@@ -1,7 +1,9 @@
 <template>
-    單一產品頁面
     <h2>{{ product.title }}</h2>
     <img :src="product.imageUrl" width="200" alt="">
+    <h3>{{ product.price  }}</h3>
+    <h4>{{ product.description }} </h4>
+    <p>{{ product.content }}</p>
 </template>
 <script>
 

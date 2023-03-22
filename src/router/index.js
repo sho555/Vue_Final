@@ -10,10 +10,6 @@ const routes = [
         component: () => import('../views/front/HomeView.vue')
       },
       {
-        path: 'about',
-        component: () => import('../views/front/AboutView.vue')
-      },
-      {
         path: 'products',
         component: () => import('../views/front/ProductsView.vue')
       }, {

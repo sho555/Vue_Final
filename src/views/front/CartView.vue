@@ -1,14 +1,14 @@
 <!-- eslint-disable n/handle-callback-err -->
 <template>
      <table class="table align-middle">
-            <thead>
+            <!-- <thead>
               <tr>
                 <th>圖片</th>
                 <th>商品名稱</th>
                 <th>價格</th>
                 <th></th>
               </tr>
-            </thead>
+            </thead> -->
             <tbody>
               <tr v-for="product in products" :key="product.id">
                 <td style="width: 200px">
@@ -47,9 +47,7 @@
             </tbody>
           </table>
           <div class="text-end">
-            <button class="btn btn-outline-danger" type="button">
-              清空購物車
-            </button>
+
           </div>
           <table class="table align-middle">
             <thead>
@@ -58,6 +56,9 @@
                 <th>品名</th>
                 <th style="width: 150px">數量/單位</th>
                 <th>單價</th>
+                <button class="btn btn-outline-danger" type="button">
+              清空購物車
+            </button>
               </tr>
             </thead>
             <tbody>
